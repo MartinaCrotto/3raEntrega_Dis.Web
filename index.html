@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luzu TV</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-danger">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">LUZU TV</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#programas">Programas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#programacion">Programación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#historia">Historia</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="py-5">
+        <div class="container py-4">
+            <p class="eyebrow">El stream que cambió las reglas</p>
+            <h1>Luzu TV</h1>
+            <p class="lead">Una nueva forma de hacer y consumir entretenimiento llegó para quedarse.
+                <br> Programas en vivo, conversaciones sin guion y comunidades que dejaron de ser espectadores para convertirse en protagonistas. Bienvenidos al universo de Luzu TV.</p>
+            <a class="btn btn-danger me-2" href="https://www.youtube.com/@luzutv" target="_blank">Sumarme al canal</a>
+            <a class="btn btn-outline-danger" href="#programacion">Ver programación</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="programas" class="container py-5">
+            <h2>Una grilla, mil conversaciones.</h2>
+            <p class="bajada">Desde temprano a la mañana, hasta el final del día, hay un programa para cada momento. <br> Estos son los programas destacados de Luzu...</p>
+            <div id="tarjetas" class="row row-cols-1 row-cols-md-3 g-4">
+            </div>
+        </section>
+
+        <section id="programacion" class="container py-5">
+            <h2>Programación</h2>
+            <p class="bajada">Siempre hay algo para ver, encontrá tu próximo programa favorito.</p>
+            <div class="row cabecera-grilla border-bottom border-danger pb-2">
+                <div class="col-4 col-md-2">Horario</div>
+                <div class="col-8 col-md-7">Programa</div>
+                <div class="col-12 col-md-3">Emisión</div>
+            </div>
+            <div class="row fila-programa border-bottom border-secondary py-3 align-items-center">
+                <div class="col-4 col-md-2 horario">06:50 - 07:00</div>
+                <div class="col-8 col-md-7">
+                    <strong class="nombre-programa">Luzu Te Activa</strong><br>
+                    Lucas Ortega
+                </div>
+                <div class="col-12 col-md-3">
+                    <span class="etiqueta fijo">Lunes a viernes</span>
+                </div>
+            </div>
+            <div class="row fila-programa border-bottom border-secondary py-3 align-items-center">
+                <div class="col-4 col-md-2 horario">07:00 - 08:00</div>
+                <div class="col-8 col-md-7">
+                    <strong class="nombre-programa">FM Luzu</strong><br>
+                    Cris Vanadía
+                </div>
+                <div class="col-12 col-md-3">
+                    <span class="etiqueta fijo">Lunes a viernes</span>
+                </div>
+            </div>
+            <div class="row fila-programa border-bottom border-secondary py-3 align-items-center">
+                <div class="col-4 col-md-2 horario">08:00 - 10:00</div>
+                <div class="col-8 col-md-7">
+                    <strong class="nombre-programa">Antes Que Nadie</strong><br>
+                    Diego Leuco, Mica Vazquez, El Trinche y Yoyi Francella
+                </div>
+                <div class="col-12 col-md-3">
+                    <span class="etiqueta fijo">Lunes a viernes</span>
+                </div>
+            </div>
+            <div class="row fila-programa border-bottom border-secondary py-3 align-items-center">
+                <div class="col-4 col-md-2 horario">10:00 - 12:30</div>
+                <div class="col-8 col-md-7">
+                    <strong class="nombre-programa">Nadie Dice Nada</strong><br>
+                    Nico Occhiato, Flor Jazmín Peña, Momi Giardina, Santi Talledo, Martín Garabal, Ángela Torres y Marcos Giles
+                </div>
+                <div class="col-12 col-md-3">
+                    <span class="etiqueta fijo">Lunes a viernes</span>
+                </div>
+            </div>
+            <div class="row fila-programa border-bottom border-secondary py-3 align-items-center">
+                <div class="col-4 col-md-2 horario">12:30 - 13:30</div>
+                <div class="col-8 col-md-7">
+                    <strong class="nombre-programa">Un Mediodía Mejor</strong><br>
+                    El Pollo Álvarez y Mica Vazquez
+                </div>
+                <div class="col-12 col-md-3">
+                    <span class="etiqueta fijo">Lunes a viernes</span>
+                </div>
+            </div>
+            <div class="row fila-programa border-bottom border-secondary py-3 align-items-center">
+                <div class="col-4 col-md-2 horario">13:30 - 15:30</div>
+                <div class="col-8 col-md-7">
+                    <strong class="nombre-programa">Patria Y Familia</strong><br>
+                    Fede Popgold, Anita Espósito, Cami Mayan, Lucas Spadafora, Juli Castro, Pestañela y Agusneta
+                </div>
+                <div class="col-12 col-md-3">
+                    <span class="etiqueta fijo">Lunes a viernes</span>
+                </div>
+            </div>
+            <div class="row fila-programa border-bottom border-secondary py-3 align-items-center">
+                <div class="col-4 col-md-2 horario">15:30 - 17:30</div>
+                <div class="col-8 col-md-7">
+                    <strong class="nombre-programa">Se Fue Larga</strong><br>
+                    FerBo, Domi Faena, Belu Negri, Lucas Lezin y Teo D'Elia
+                </div>
+                <div class="col-12 col-md-3">
+                    <span class="etiqueta fijo">Lunes a viernes</span>
+                </div>
+            </div>
+            <div class="row fila-programa border-bottom border-secondary py-3 align-items-center">
+                <div class="col-4 col-md-2 horario">17:30 - 18:30</div>
+                <div class="col-8 col-md-7">
+                    <strong class="nombre-programa">FM Luzu Al Atardecer</strong><br>
+                    Cris Vanadía
+                </div>
+                <div class="col-12 col-md-3">
+                    <span class="etiqueta fijo">Lunes a viernes</span>
+                </div>
+            </div>
+            <div class="row fila-programa border-bottom border-secondary py-3 align-items-center">
+                <div class="col-4 col-md-2 horario">17:30 - 19:00</div>
+                <div class="col-8 col-md-7">
+                    <strong class="nombre-programa">La Novela Del Streaming</strong><br>
+                    Carina Zampini, Diego Castro y Gabriel Schultz
+                </div>
+                <div class="col-12 col-md-3">
+                    <span class="etiqueta puntual">Lunes y miércoles</span>
+                </div>
+            </div>
+            <div class="row fila-programa border-bottom border-secondary py-3 align-items-center">
+                <div class="col-4 col-md-2 horario">17:30 - 19:00</div>
+                <div class="col-8 col-md-7">
+                    <strong class="nombre-programa">Los Del Fondo</strong><br>
+                    El Pollo Álvarez, El Purre, Diego Castro y Marcos Giles
+                </div>
+                <div class="col-12 col-md-3">
+                    <span class="etiqueta puntual">Martes</span>
+                </div>
+            </div>
+            <div class="row fila-programa border-bottom border-secondary py-3 align-items-center">
+                <div class="col-4 col-md-2 horario">17:30 - 18:30</div>
+                <div class="col-8 col-md-7">
+                    <strong class="nombre-programa">Los No Talentos</strong><br>
+                    Tati Roust, El Pulpo, El Turro y La Gurisa
+                </div>
+                <div class="col-12 col-md-3">
+                    <span class="etiqueta puntual">Jueves</span>
+                </div>
+            </div>
+            <div class="row fila-programa border-bottom border-secondary py-3 align-items-center">
+                <div class="col-4 col-md-2 horario">09:00 - 11:00</div>
+                <div class="col-8 col-md-7">
+                    <strong class="nombre-programa">Un Sábado Mejor</strong><br>
+                    El Pollo Álvarez, Tati Roust y Agus García
+                </div>
+                <div class="col-12 col-md-3">
+                    <span class="etiqueta puntual">Sábado</span>
+                </div>
+            </div>
+            <div class="row fila-programa border-bottom border-secondary py-3 align-items-center">
+                <div class="col-4 col-md-2 horario">11:00 - 13:00</div>
+                <div class="col-8 col-md-7">
+                    <strong class="nombre-programa">PLP</strong><br>
+                    Flor Jazmín Peña, Anita Espósito, La Joaqui y Evitta Luna
+                </div>
+                <div class="col-12 col-md-3">
+                    <span class="etiqueta puntual">Sábado</span>
+                </div>
+            </div>
+            <div class="row fila-programa border-bottom border-secondary py-3 align-items-center">
+                <div class="col-4 col-md-2 horario">13:00 - 14:00</div>
+                <div class="col-8 col-md-7">
+                    <strong class="nombre-programa">Tarde De Amigos</strong><br>
+                    La Gurisa, Evitta Luna, Teo Podolsky y Juan Cottet
+                </div>
+                <div class="col-12 col-md-3">
+                    <span class="etiqueta puntual">Sábado</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="historia" class="container py-5">
+            <h2>Todo empezó con una idea.</h2>
+            <div class="row align-items-center g-4">
+                <div class="col-md-5">
+                    <img src="imgs/luzu-tv.jpg" class="img-fluid rounded imagen-historia" alt="Luzu TV">
+                </div>
+                <div class="col-md-7 d-flex flex-column justify-content-center">
+                    <p>En noviembre de 2020, Nicolás Occhiato y Gabriela Rivero comenzaron a desarrollar un proyecto que
+                        buscaba llevar el entretenimiento a un nuevo formato. Así nació Nadie Dice Nada, una transmisión
+                        que comenzó de manera remota y que se convirtió en el punto de partida de Luzu TV.</p>
+                    <p>En 2021, el proyecto se consolidó como canal de streaming y comenzó a ampliar su programación,
+                        incorporando nuevas voces, formatos y propuestas. Lo que empezó como un programa terminó
+                        convirtiéndose en uno de los principales referentes del streaming argentino.</p>
+                    <p>Hoy, Luzu TV cuenta con más de 3,4 millones de suscriptores en YouTube y un promedio de 84.296 espectadores en los últimos 30 días.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="border-top border-danger pt-4 pb-2 text-center">
+        <div class="container">
+             <p>&copy; 2026 Luzu TV. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/codigo.js"></script>
+</body>
+
+</html>
